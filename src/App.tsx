@@ -24,7 +24,7 @@ const App = () => (
       <Toaster />
       <Sonner />
       <CalendlyScript />
-      <BrowserRouter>
+      <BrowserRouter basename={import.meta.env.BASE_URL}>
         <ScrollToTop />  {/* Add here */}
         <Routes>
           <Route path="/" element={<Layout />}>
