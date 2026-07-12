@@ -156,14 +156,80 @@
     padding-left: 0.75rem;
     padding-right: 0.75rem;
   }
+
+  html {
+    font-size: 14px;
+  }
   
   /* Scale down large text elements on mobile */
   h1 {
-    line-height: 1.1;
+    line-height: 1.15;
   }
   
   h2 {
     line-height: 1.2;
+  }
+
+  /* Tone down oversized Tailwind text utilities used across pages */
+  .text-8xl {
+    font-size: 2.9rem;
+    line-height: 1.05;
+  }
+
+  .text-7xl {
+    font-size: 2.55rem;
+    line-height: 1.08;
+  }
+
+  .text-6xl {
+    font-size: 2.2rem;
+    line-height: 1.1;
+  }
+
+  .text-5xl {
+    font-size: 1.95rem;
+    line-height: 1.15;
+  }
+
+  .text-4xl {
+    font-size: 1.7rem;
+    line-height: 1.2;
+  }
+
+  .text-3xl {
+    font-size: 1.45rem;
+  }
+
+  .text-2xl {
+    font-size: 1.25rem;
+  }
+
+  /* Reduce oversized section paddings on mobile */
+  .py-32 {
+    padding-top: 4.5rem;
+    padding-bottom: 4.5rem;
+  }
+
+  .py-24 {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+
+  .py-20 {
+    padding-top: 3.5rem;
+    padding-bottom: 3.5rem;
+  }
+
+  .min-h-screen {
+    min-height: 88vh;
+  }
+
+  /* Scale down bulky mobile CTA buttons */
+  .px-8.py-6 {
+    padding-left: 1.2rem;
+    padding-right: 1.2rem;
+    padding-top: 0.8rem;
+    padding-bottom: 0.8rem;
   }
   
   /* Improve touch targets on mobile */
